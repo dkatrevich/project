@@ -1,1 +1,0 @@
-function work (){ alert("It's works")}
