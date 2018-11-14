@@ -1,28 +1,44 @@
-
-.logo {
+body {
+    background: url('images/bg.jpg') no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+a {
+    color: inherit;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    align-content: center;
+}
+.header_bg {
+    background: dimgrey;
+}
+.logo_img {
     width: 50px;
-    height:50px;
-    
+    height: 50px;
 }
-nav {
-    float: right;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 50%;
+    font-size: 1.5rem;
 }
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.menu_item {
+    display: flex;
+    align-content: center;
 }
-nav li {
-    display: inline-block; /*один из способов разместить элементы в строку*/
+.menu_item a {
+    display: flex;
+    align-items: center;
 }
 .container {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1600px;
     padding: 15px;
     margin: 0 auto;
-}
-nav a {
-    text-decoration: none;
-
-    line-height: 38px;
 }
