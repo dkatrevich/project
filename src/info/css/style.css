@@ -1,5 +1,5 @@
 body {
-    background: url('info/images/banner2.jpg') no-repeat;
+    background: url('../image/banner2.jpg') no-repeat center center fixed;
     background-size: cover;
     width: 99vw;
     height: 100vh;
@@ -15,7 +15,7 @@ a {
     align-content: center;
 }
 .header_bg {
-    background: dimgrey;
+    background: #767b75;
 }
 .logo_img {
     width: 50px;
