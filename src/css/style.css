@@ -1,5 +1,5 @@
 body {
-    background: url('images/banner.jpg') no-repeat;
+    background: url('../images/banner.jpg') no-repeat;
     background-size: cover;
     width: 99vw;
     height: 100vh;
