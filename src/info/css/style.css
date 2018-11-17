@@ -42,3 +42,10 @@ a {
     padding: 15px;
     margin: 0 auto;
 }
+.content{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 25% ;
+    margin-right: 25%;
+}
