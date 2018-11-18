@@ -17,7 +17,7 @@
             <div class="menu_item"><a href="">Главная</a></div>
             <div class="menu_item"><a href="">Мини-игры</a></div>
             <div class="menu_item"><a href="info.html">Информация</a></div>
-            <div id='myBtn' class="menu_item"><a href="#">Контакты</a></div>
+            <div id='myBtn' class="menu_item"><a href="#">Регистрация</a></div>
         </div>
     </div>
 </div>
@@ -26,8 +26,8 @@
     <div class="container">
         <div class="row">
         <div class="block">
-            <h1>Что такое Капча?</h1>
-            <p>Капча являє собою спеціальну картинку з перевірочним кодом, для того щоб визначити живий користувач здійснює дію або бот. Ввести captcha найчастіше пропонується в разі численних однакових повторюваних запитів до сервісу.
+            <h1 class="title">Що таке Капча?</h1>
+            <p class="content_text">Капча являє собою спеціальну картинку з перевірочним кодом, для того щоб визначити живий користувач здійснює дію або бот. Ввести captcha найчастіше пропонується в разі численних однакових повторюваних запитів до сервісу.
                 Наприклад, пошукові системи Яндекс і Google будуть пропонувати вам ввести captcha в разі частого звернення до тих або інших даних або сервісів. Також капча часто зустрічається при роботі з різними скриптами: парсер, клікер, постерами і т.д. При парсінгу пошукових систем або груп в соціальних мережах.
                 Головне завдання капчи попередити автоматичні дії ботів. З цим завданням відмінно справляється капча, розгадати витіюватий малюнок може тільки реальний користувач, а не бот. Таким чином, при роботі зі скриптами, капча може служити великою перешкодою при роботі з великими обсягами даних.
             </p>
@@ -35,15 +35,28 @@
         </div>
     </div>
     <!-- Trigger/Open The Modal -->
-
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
-        </div>
+            <div class="form">
+                <form>
+                    <h2 align="center">Регистрация</h2>
+                    <div class="form_action">
+                        <label>Имя</label><input type="text" name="text" title="Ваше Имя" required><span></span> <br>
+                        <label>Фамилия</label><input type="text" name="text" title="Ваша Фамилия" required><span></span> <br>
+                        <label>Город</label><input type="text" name="text" title="Ваш город" required><span></span> <br>
+                        <br>
+                        <label>Эл.почта</label><input type="email" name="email" title="Ваш email" required><span></span> <br>
+                        <label>Пароль</label><input type="password" name="password" title="Ваша Фамилия"> <br>
+                        <label>Повторите</label><input type="password" name="password" title="Ваш город" required><span></span> <br>
+                    <div class="form_button">
+                        <p><button class="button">Зарегистрироваться</button></p>
+                    </div>
+                </form>
+            </div>
 
     </div>
     <script src="src/js/index.js"></script>
