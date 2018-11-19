@@ -179,27 +179,4 @@ a {
     background: -ms-linear-gradient(top, #00DE00 0%,#02AA02 50%,#3AC93A 51%,#25B025 100%);
     background: linear-gradient(top, #00DE00 0%,#02AA02 50%,#3AC93A 51%,#25B025 100%);
 }
-input:valid + span::before {
-    content: url(http://uploads.ru/mcPvr.jpg);
-    position: absolute;
-    right: -65px;
 
-}
-input:invalid + span::before {
-    content: url(http://uploads.ru/E7dSf.jpg);
-    position: absolute;
-    right: -65px;
-}
-input:valid + .pattern::before {
-    content: url(http://uploads.ru/mcPvr.jpg) 'Все верно';
-    color: #12A712;
-    position: absolute;
-    right: -135px;
-
-}
-input:invalid + .pattern::before {
-    content: url(http://uploads.ru/E7dSf.jpg) 'Не правильно';
-    color: #c00;
-    position: absolute;
-    right: -160px;
-}

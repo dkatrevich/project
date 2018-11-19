@@ -4,7 +4,7 @@ window.jQuery = jQuery;
 $(document).ready(function () {
     $('#content').jstars({
         image_path: 'src/images/stars', // folder with magic image
-        style: 'yellow',       // optional, color, default: white
+        style: 'rand',       // optional, color, default: white
         frequency: 19         // optional, from 1 to 19
     });
 
