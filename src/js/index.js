@@ -1,12 +1,13 @@
 
-$(document).ready(function(){
+window.$ = $;
+window.jQuery = jQuery;
+$(document).ready(function () {
+    $('#content').jstars({
+        image_path: 'src/images/stars', // folder with magic image
+        style: 'yellow',       // optional, color, default: white
+        frequency: 19         // optional, from 1 to 19
+    });
 
-$('#selector').jstars({
-    image_path: 'images', // folder with magic image
-    style: 'white',       // optional, color, default: white
-    frequency: 12         // optional, from 1 to 19
-});
-});
 // Get the modal
 const modal = document.getElementById('myModal');
 
@@ -27,10 +28,10 @@ span.onclick = function () {
 };
 
 
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 };
+});
